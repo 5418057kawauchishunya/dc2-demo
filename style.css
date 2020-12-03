@@ -17,5 +17,6 @@ h2 {
   font-size: 1.2em;
   font-family: cursive;
   font-size: large;
+  border-bottom: 10px dotted rgb(68, 48, 6);
 }
 
