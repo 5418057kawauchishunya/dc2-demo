@@ -27,13 +27,25 @@
       見た目では小さく見えても樹齢600年を越す伝統のある松です。
       
     </h2>
-    <audio controls>
-      <source src="sound/kin.mp3">
+    
+
+    <!-- テキストボタンの場合 -->
+    <p><a onClick="sound()"><b href="" class="btn">音声を再生する</b></a></p>
+ 
+    <!-- 音声ファイルの読み込み 9〜10行目にURLを指定 -->
+    <audio id="sound-file" preload="auto">
+	  <source src="sound/kin.mp3" type="audio/mp3">
     </audio>
     
-    <img class="displayed-img" src="images/r.jpg" width="50%" height="50%">
-    <img class="displayed-img" src="images/k.jpg" width="100%" height="100%">
-    
-  
+    <img class="displayed-img" src="images/r.jpg" width="40%" height="40%">
+    <img class="displayed-img" src="images/k.jpg" width="40%" height="40%">
+    <br>
+
+    <h3>他にも見所あります　周辺地図</h3>
+    <img class="displayed-img" src="images/kin.jpg" width="100%" height="100%">
+    <br>
+    <h4>近くの観光地</h4>
+    <h5>他の紹介しているURLを貼る</h5>
+    <script src="main.js"></script>
   </body>
 </html>
